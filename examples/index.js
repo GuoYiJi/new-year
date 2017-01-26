@@ -12,6 +12,14 @@ const router = new VueRouter({
   base: __dirname,
   routes
 })
+Vue.mixin({
+  methods: {
+    analytics(track_name, ops = {}){
+      const _DEFAULT = {App: 'H5'}
+      window.analytics.track(track_name, Object.assign(_DEFAULT, ops))
+    },
+  }
+})
 
 new Vue({ // eslint-disable-line
   render: h => h(App),

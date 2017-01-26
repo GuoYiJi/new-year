@@ -111,6 +111,7 @@
 					
 					this.createCanvas()
 				}
+				this.analytics('新春段子-生成故事按钮')
 			},
 			createCanvas(){
 				const _this = this
@@ -143,7 +144,6 @@
 			},
 			html(){
 				const tpl = template[this.randomIntFromInterval]
-				console.log(this.randomIntFromInterval)
 				let _result = {
 					content: tpl.content.replace(/名字/g, this.name),
 					url: require('../Common/images/' + tpl.url)
@@ -155,6 +155,7 @@
 			window.addEventListener('touchmove', (e) => {
 				event.preventDefault()
 			})
+			this.analytics('新春段子-开始页面')
 		}
 	}
 </script>

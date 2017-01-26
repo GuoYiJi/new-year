@@ -75,7 +75,7 @@
 		</div>
 		<div class="btns">
 			<button @click="back()">重新生成</button>
-			<button @click="handleMask">保存图片</button>
+			<button @click="handleMask, analytics('新春段子-保存图片按钮')">保存图片</button>
 		</div>
 		<foot></foot>
 		<div class="toast" @click="handleMask" v-show="show">
@@ -103,11 +103,15 @@
 		},
 		methods: {
 			back(){
+				this.analytics('新春段子-重新生成按钮')
 				this.$router.push('/')
 			},
 			handleMask(){
 				this.show = !this.show
 			}
+		},
+		mounted(){
+			this.analytics('新春段子-生成页面')
 		}
 	}
 </script>

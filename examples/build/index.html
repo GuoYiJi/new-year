@@ -108,8 +108,39 @@
       }
     })(window, document).fixScreen()
   </script>
-<link href="/examples/build/app.8717dc3.css" rel="stylesheet"></head>
+<link href="/examples/build/app.584544a.css" rel="stylesheet"></head>
 <body>
   <div id="app"></div>
-<script type="text/javascript" src="/examples/build/manifest.734644e.js"></script><script type="text/javascript" src="/examples/build/vendor.0c786a1.js"></script><script type="text/javascript" src="/examples/build/app.61b73d7.js"></script></body>
+
+  <script>
+    !function(){
+        var analytics = window.analytics = window.analytics || []
+        if (!analytics.initialize) if(analytics.invoked) window.console&&console.error&&console.error('inSegment snippetcluded twice.')
+        else {
+            analytics.invoked = !0
+            analytics.methods = ['trackSubmit', 'trackClick', 'trackLink', 'trackForm', 'pageview', 'identify', 'reset', 'group', 'track', 'ready', 'alias', 'page', 'once', 'off', 'on']
+            analytics.factory = function(t){
+                return function(){
+                    var e=Array.prototype.slice.call(arguments)
+                    e.unshift(t);analytics.push(e)
+                    return analytics
+                }
+            }
+            for (var t = 0; t < analytics.methods.length; t++){
+                var e = analytics.methods[t]
+                analytics[e] = analytics.factory(e)
+            }
+            analytics.load = function(t){
+                var e = document.createElement('script')
+                e.type = 'text/javascript'
+                e.async = !0
+                e.src=('https:' === document.location.protocol ? 'https://' : 'http://') + 'cdn.segment.com/analytics.js/v1/' + t + '/analytics.min.js'
+                var n = document.getElementsByTagName('script')[0]
+                n.parentNode.insertBefore(e,n)
+            }
+        analytics.SNIPPET_VERSION = '3.1.0'
+        analytics.load('Pe4unTXYWkc2MfTD6ox18jkcNXUfNG0v')
+    }}()
+  </script>
+<script type="text/javascript" src="/examples/build/manifest.aadb5de.js"></script><script type="text/javascript" src="/examples/build/vendor.0c786a1.js"></script><script type="text/javascript" src="/examples/build/app.0a26ad4.js"></script></body>
 </html>
