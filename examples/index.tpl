@@ -2,7 +2,7 @@
 <html lang="cn">
 <head>
   <meta charset="UTF-8">
-  <title>PR-admin</title>
+  <title>新春段子</title>
   <script type="text/javascript">
     (function(win, doc) {
       var UA = navigator.userAgent,

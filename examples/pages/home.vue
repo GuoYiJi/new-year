@@ -20,18 +20,20 @@
 			display: block;
 			margin-bottom: 25rem / $rem;
 			width: 100%;
-			height: 44rem / $rem;
-			line-height: 44rem / $rem;
 			border: none;
 		}
 		.btns {
 			& > input {
+				padding: 10rem / $rem 0;
+				height: 24rem / $rem;
+				line-height: 1.41176471;
 				border: 1px solid rgb(37, 135, 139);
 				border-radius: 50px;
 				text-align: center;
 				box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .1);
 			}
 			.generate {
+				height: 44rem / $rem;
 				background: url(generateBtn.png) no-repeat;
 				background-size: 275rem / $rem 44rem / $rem;
 				text-indent: -9999em;
@@ -64,7 +66,7 @@
 		<div class="wrapper" :style="{width: viewportWidth, height: viewportHeight}">
 			<h3 class="tit">我好像过了假日子</h3>
 			<div class="btns">
-				<input class="btn" type="text" placeholder="输入你或好友的名字" v-model="name" @blur="scrollTop">
+				<input class="btn" type="text" placeholder="输入你或好友的名字" v-model="name" @blur="scrollTop" maxlength="5">
 				<button class="btn generate" @click="jump()">生成故事</button>
 			</div>
 	    <div class="pic"></div>
