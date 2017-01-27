@@ -12,7 +12,7 @@ export default [
 	},
 	{
 		content: `
-		<p style="font-weight: bold; padding-top: 109px; font-size: 40px; font-family: 黑体; color: rgb(43, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(255, 250, 49);">名字</span>自幼习武，向往武松</p>`,
+		<p style="font-weight: bold; padding-top: 109px; font-size: 40px; font-family: 黑体; color: rgb(43, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(6, 26, 6);">名字</span>自幼习武，向往武松</p>`,
 		url: '003_bg.png'
 	},
 	{
@@ -24,7 +24,7 @@ export default [
 	{
 		content: `
 		<p style="font-weight: bold; padding-top: 105px; font-size: 52px; font-family: 黑体; color: rgb(75, 10, 8); line-height: 72px;"><span style="padding-right: 5px; color: rgb(184, 7, 2);">名字</span>自幼习武</p>
-		<p style="font-weight: bold; padding-top: 317px; font-size: 36px; font-family: 黑体; color: rgb(75, 10, 8); line-height: 72px;"><span style="padding-right: 5px; color: rgb(185, 7, 1);">名字</span>输得心服口服：</p>`,
+		<p style="font-weight: bold; padding-top: 310px; font-size: 36px; font-family: 黑体; color: rgb(75, 10, 8); line-height: 72px;"><span style="padding-right: 5px; color: rgb(185, 7, 1);">名字</span>输得心服口服：</p>`,
 		url: '005_bg.png'
 	},
 	{
@@ -49,7 +49,7 @@ export default [
 	},
 	{
 		content: `
-		<p style="font-weight: bold; padding-top: 137px; font-size: 44px; font-family: 黑体; color: rgb(70, 10, 8); line-height: 72px;"><span style="padding-right: 5px; color: rgb(255, 250, 49);">名字</span>加入电话诈骗团伙</p>`,
+		<p style="font-weight: bold; padding-top: 137px; font-size: 44px; font-family: 黑体; color: rgb(70, 10, 8); line-height: 72px;"><span style="padding-right: 5px; color: rgb(184, 7, 2);">名字</span>加入电话诈骗团伙</p>`,
 		url: '010_bg.png'
 	},
 	{
@@ -84,7 +84,7 @@ export default [
 	},
 	{
 		content: `
-		<p style="font-weight: bold; padding-top: 216px; font-size: 56px; font-family: 黑体; color: rgb(42, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(169, 3, 7);">名字</span>非常用心的装修新房</p>`,
+		<p style="font-weight: bold; padding-top: 216px; font-size: 40px; font-family: 黑体; color: rgb(42, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(169, 3, 7);">名字</span>非常用心的装修新房</p>`,
 		url: '017_bg.png'
 	},
 	{
@@ -177,12 +177,13 @@ export default [
 	},
 	{
 		content: `
-		<p style="font-weight: bold; padding-top: 138px; font-size: 44px; font-family: 黑体; color: rgb(42, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(184, 7, 2);">名字</span>向女同事表白被拒绝</p>`,
+		<p style="font-weight: bold; padding-top: 138px; font-size: 44px; font-family: 黑体; color: rgb(42, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(184, 7, 2);">名字</span>向女同事表白被拒绝</p>
+		<p style="font-weight: bold; padding-top: 330px; font-size: 36px; font-family: 黑体; color: rgb(42, 20, 6); line-height: 72px;"><span style="padding-right: 5px; color: rgb(184, 7, 2);">名字</span>也追到了蛋糕店的女收银员</p>`,
 		url: '035_bg.png'
 	},
 	{
 		content: `
-		<p style="font-weight: bold; padding-top: 363px; font-size: 44px; font-family: 黑体; color: #fff; line-height: 72px;"><span style="padding-right: 5px; color: rgb(255, 250, 49);">名字</span>激动得想表白......</p>`,
+		<p style="font-weight: bold; text-align: left; padding-left: 50px; padding-top: 363px; font-size: 44px; font-family: 黑体; color: #fff; line-height: 72px;"><span style="padding-right: 5px; color: rgb(255, 250, 49);">名字</span>激动得想表白......</p>`,
 		url: '036_bg.png'
 	}
 ]
