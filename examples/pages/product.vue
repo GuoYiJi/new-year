@@ -112,6 +112,11 @@
 		},
 		mounted(){
 			this.analytics('新春段子-生成页面')
+		},
+		beforeRouteEnter(to, from, next){
+			next(vm => {
+				if (!vm.base64) vm.$router.push('/')
+			})
 		}
 	}
 </script>
