@@ -75,7 +75,7 @@
 		</div>
 		<div class="btns">
 			<button @click="back()">重新生成</button>
-			<button @click="handleMask, analytics('新春段子-保存图片按钮')">保存图片</button>
+			<button @click="handleMask(), analytics('新春段子-保存图片按钮')">保存图片</button>
 		</div>
 		<foot></foot>
 		<div class="toast" @click="handleMask" v-show="show">
